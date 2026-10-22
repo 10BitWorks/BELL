@@ -1,14 +1,38 @@
 
+GitHub Project - https://github.com/10bitworks/BELL
+
+BROKER - http://broker.10bit/#/subscriptions/topics
+CLIENT - MQTTX
+EMQX Dashboard - http://broker.10bit/#/clients
 
 List hosts with an MQTT Server
     > nmap --open -p 1883 10.7.1.1/24
-    Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-23 15:43 Central Daylight Time
-    Nmap scan report for 10.7.1.81
-    Host is up (0.17s latency).
 
-    PORT     STATE SERVICE
-    1883/tcp open  mqtt
-    MAC Address: B8:27:EB:32:5F:65 (Raspberry Pi Foundation)
 
-    Nmap done: 256 IP addresses (60 hosts up) scanned in 6.63 seconds
+    > nmap --open -p 1883 192.168.1.1/24
+    Nmap scan report for beryllium.lan (192.168.1.130)
 
+
+ESP8266 Pinout Reference - https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
+
+Haptic Feedback Vibration Designer - https://toolkitgen.com/tool/haptic_rhythm_designer
+
+Arduino tone shave and a haircut two bits:
+200,250,100,150,100,150,200,500,200,300,250,350,400,500
+
+
+> nmap --open -p 1883 10.7.1.1/24
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-06-07 14:12 Central Daylight Time
+Nmap scan report for kiln.10bit (10.7.1.81)
+Host is up (0.078s latency).
+
+PORT     STATE SERVICE
+1883/tcp open  mqtt
+MAC Address: B8:27:EB:32:5F:65 (Raspberry Pi Foundation)
+
+Nmap scan report for 10.7.1.106
+Host is up (0.021s latency).
+
+PORT     STATE SERVICE
+1883/tcp open  mqtt
+MAC Address: BC:24:11:A1:40:36 (Proxmox Server Solutions GmbH)
